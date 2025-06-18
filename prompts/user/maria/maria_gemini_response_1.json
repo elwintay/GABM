@@ -1,0 +1,38 @@
+{
+  "name": "maria",
+  "time": "09:00",
+  "personality": "serious",
+  "location": "",
+  "action": "",
+  "target": "",
+  "image_path": "",
+  "prompt_path": "",
+  "updated_tasks": [
+    {
+      "task": "Clean the kitchen",
+      "timing": "09:00",
+      "importance": 0.95,
+      "time_required": "30 min"
+    },
+    {
+      "task": "Do the laundry",
+      "timing": "09:30",
+      "importance": 0.7,
+      "time_required": "30 min"
+    },
+    {
+      "task": "Vacuum the living room",
+      "timing": "10:00",
+      "importance": 0.6,
+      "time_required": "30 min"
+    }
+  ],
+  "updated_memories": [
+    {
+      "memory": "I just woke up and entered the living room.",
+      "timing": "09:00",
+      "importance": 0.9
+    }
+  ],
+  "prompt": "What should I do next? Update every significant time interval. Add on to the memory what was done. Remove task when done."
+}
