@@ -9,8 +9,8 @@ class Agent:
         self.user_prompt = None
         self.name = name
         self.personality = None
-        self.vision = f"./images/user/{name}/"
-        self.prompt_path = f"./prompts/user/{name}/"
+        self.vision = f"../images/user/{name}/"
+        self.prompt_path = f"../prompts/user/{name}/"
 
     def get_system_prompt(self):
         return self.system_prompt
@@ -29,7 +29,7 @@ class Agent:
     
     def set_agent(self):
         # Read system prompt from file
-        with open("./prompts/system/systemprompt.txt", "r", encoding="utf-8") as f:
+        with open("../prompts/system/systemprompt.txt", "r", encoding="utf-8") as f:
             self.system_prompt = f.read()
         self.user_prompt = self.set_user_prompt()
         self.personality = self.user_prompt['personality']
@@ -38,8 +38,11 @@ class Agent:
         files = glob.glob(os.path.join(self.prompt_path, f"{self.name}_gemini_response_*.json"))
         if not files:
             # Fallback to initial json if no outputs yet
-            with open(f"./prompts/user/{self.name}/{self.name}_gemini_response_1.json", "r", encoding="utf-8") as f:
-                return f.read()
+            with open(f"../prompts/user/{self.name}/{self.name}_gemini_response_1.json", "r", encoding="utf-8") as f:
+                prompt_str = f.read()
+                prompt_str = self.clean_prompt(prompt_str)
+                prompt_dict = json.loads(prompt_str)
+                return prompt_dict
         files.sort(key=lambda x: int(x.split('_')[-1].split('.')[0]))
         with open(files[-1], "r", encoding="utf-8") as f:
             self.user_prompt = f.read()

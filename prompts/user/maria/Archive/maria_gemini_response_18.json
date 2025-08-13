@@ -1,23 +1,13 @@
 {
   "name": "maria",
-  "current_time": "09:00",
+  "current_time": "14:54",
   "personality": "Highly dedicated and diligent, always strives to complete tasks efficiently and on time. Pays close attention to detail, is proactive in solving problems, and consistently goes above and beyond to support the team. Maintains a positive attitude under pressure and values professionalism and reliability in the workplace.",
-  "location": "entrance",
-  "action": "",
-  "target": "",
+  "location": "desk",
+  "action": "stay",
+  "target": "desk",
   "image_path": "./images/user/maria",
   "prompt_path": "./prompts/user/maria",
   "current_tasks": [
-    {
-      "task": "Meeting with boss",
-      "start_time": "09:30",
-      "time_required": "60 min"
-    },
-    {
-      "task": "Finish admin reports",
-      "start_time": "flexible",
-      "time_required": "120 min"
-    },
     {
       "task": "Team meeting",
       "start_time": "16:00",
@@ -25,9 +15,8 @@
     }
   ],
   "thought_process": {
-    "type": "",
-    "thought": "",
-    "reason": ""
+    "thought": "Spend some time checking emails and responding to any urgent requests. Prioritizing effective communication is key to maintaining team efficiency.",
+    "reason": "Want to be responsive to important emails."
   },
   "prompt": "What should I do next?"
 }

@@ -16,7 +16,8 @@ class Gemini:
 
     def get_response(self):
         if self.agent.vision:
-            content = [self.agent.vision, str(self.agent.user_prompt)]
+            image_files = glob.glob(os.path.join(self.agent.vision, "*.[jp][pn]g"))
+            content = image_files + [str(self.agent.user_prompt)]
         else:
             content = str(self.agent.user_prompt)
         
@@ -44,7 +45,7 @@ if __name__ == "__main__":
     # Example usage
     from agent import Agent
 
-    agent_name = "maria"
+    agent_name = "john"
     new_agent = Agent(agent_name)
     new_agent.set_agent()
     print(new_agent.prompt_path)

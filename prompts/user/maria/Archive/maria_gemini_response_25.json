@@ -1,33 +1,16 @@
 {
   "name": "maria",
-  "current_time": "09:00",
+  "current_time": "16:32",
   "personality": "Highly dedicated and diligent, always strives to complete tasks efficiently and on time. Pays close attention to detail, is proactive in solving problems, and consistently goes above and beyond to support the team. Maintains a positive attitude under pressure and values professionalism and reliability in the workplace.",
-  "location": "entrance",
-  "action": "",
-  "target": "",
+  "location": "desk",
+  "action": "stay",
+  "target": "desk",
   "image_path": "./images/user/maria",
   "prompt_path": "./prompts/user/maria",
-  "current_tasks": [
-    {
-      "task": "Meeting with boss",
-      "start_time": "09:30",
-      "time_required": "60 min"
-    },
-    {
-      "task": "Finish admin reports",
-      "start_time": "flexible",
-      "time_required": "120 min"
-    },
-    {
-      "task": "Team meeting",
-      "start_time": "16:00",
-      "time_required": "30 min"
-    }
-  ],
+  "current_tasks": [],
   "thought_process": {
-    "type": "",
-    "thought": "",
-    "reason": ""
+    "thought": "I've reached my desk. Since my tasks are completed, I'll take a moment to check my emails and see if there are any urgent requests or new assignments that need my attention.",
+    "reason": "It's important to stay on top of communications and address any pressing matters promptly."
   },
   "prompt": "What should I do next?"
 }

@@ -1,12 +1,12 @@
 {
-  "name": "maria",
+  "name": "john",
   "current_time": "09:00",
-  "personality": "Highly dedicated and diligent, always strives to complete tasks efficiently and on time. Pays close attention to detail, is proactive in solving problems, and consistently goes above and beyond to support the team. Maintains a positive attitude under pressure and values professionalism and reliability in the workplace.",
+  "personality": "Often unmotivated and careless, tends to procrastinate and rarely completes tasks on time. Pays little attention to detail, avoids taking initiative, and frequently neglects responsibilities. Struggles to stay positive under pressure and often displays a lack of professionalism and reliability in the workplace.",
   "location": "entrance",
   "action": "",
   "target": "",
-  "image_path": "./images/user/maria",
-  "prompt_path": "./prompts/user/maria",
+  "image_path": "./images/user/john",
+  "prompt_path": "./prompts/user/john",
   "current_tasks": [
     {
       "task": "Meeting with boss",

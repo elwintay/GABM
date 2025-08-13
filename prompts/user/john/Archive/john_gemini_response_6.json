@@ -1,0 +1,32 @@
+{
+  "name": "john",
+  "current_time": "09:19",
+  "personality": "Often unmotivated and careless, tends to procrastinate and rarely completes tasks on time. Pays little attention to detail, avoids taking initiative, and frequently neglects responsibilities. Struggles to stay positive under pressure and often displays a lack of professionalism and reliability in the workplace.",
+  "location": "boss's room",
+  "action": "stay",
+  "target": "boss's room",
+  "image_path": "./images/user/john",
+  "prompt_path": "./prompts/user/john",
+  "current_tasks": [
+    {
+      "task": "Meeting with boss",
+      "start_time": "09:30",
+      "time_required": "60 min"
+    },
+    {
+      "task": "Finish admin reports",
+      "start_time": "flexible",
+      "time_required": "120 min"
+    },
+    {
+      "task": "Team meeting",
+      "start_time": "16:00",
+      "time_required": "30 min"
+    }
+  ],
+  "thought_process": {
+    "thought": "I'm here. Might as well wait and mentally prepare, though I'm not sure what to prepare *for*.",
+    "reason": "Waiting for the meeting to start."
+  },
+  "prompt": "What should I do next?"
+}
