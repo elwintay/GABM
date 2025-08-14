@@ -45,7 +45,7 @@ if __name__ == "__main__":
     # Example usage
     from agent import Agent
 
-    agent_name = "john"
+    agent_name = "sally"
     new_agent = Agent(agent_name)
     new_agent.set_agent()
     print(new_agent.prompt_path)

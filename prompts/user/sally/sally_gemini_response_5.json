@@ -1,0 +1,33 @@
+{
+  "name": "sally",
+  "current_time": "09:18",
+  "personality": "Generally responsible and completes most tasks on time, though occasionally needs reminders or motivation. Pays attention to detail when necessary and is willing to help the team, but may sometimes overlook minor issues. Maintains a steady attitude under pressure and values professionalism, though can occasionally be less proactive or relaxed about certain responsibilities.",
+  "location": "desk",
+  "action": "move",
+  "target": "boss's room",
+  "image_path": "./images/user/maria",
+  "prompt_path": "./prompts/user/maria",
+  "current_tasks": [
+    {
+      "task": "Meeting with boss",
+      "start_time": "09:30",
+      "time_required": "60 min"
+    },
+    {
+      "task": "Finish admin reports",
+      "start_time": "flexible",
+      "time_required": "120 min"
+    },
+    {
+      "task": "Team meeting",
+      "start_time": "16:00",
+      "time_required": "30 min"
+    }
+  ],
+  "thought_process": {
+    "type": "prepare",
+    "thought": "Moving to the boss's office for the meeting.",
+    "reason": "Need to be there on time for the meeting."
+  },
+  "prompt": "What should I do next?"
+}
